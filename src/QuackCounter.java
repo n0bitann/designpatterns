@@ -1,11 +1,13 @@
 public class QuackCounter implements Quackable {
     Quackable duck;
-    static int numberofQuack;
+    static int numberOfQuack;
+
+
 
     @Override
     public void quack() {
         duck.quack();
-        numberofQuack++;
+        numberOfQuack++;
 
     }
 
@@ -13,6 +15,6 @@ public class QuackCounter implements Quackable {
         this.duck = duck;
     }
     public static int getQuacks(){
-        return numberofQuack;
+        return numberOfQuack;
     }
 }
