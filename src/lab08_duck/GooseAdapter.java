@@ -1,3 +1,5 @@
+package lab08_duck;
+
 public class GooseAdapter implements Quackable {
     Goose goose;
     public GooseAdapter(Goose goose){

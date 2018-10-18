@@ -1,3 +1,5 @@
+package lab08_duck;
+
 public class PigeonAdapter implements Quackable {
     Pigeon pigeon;
 

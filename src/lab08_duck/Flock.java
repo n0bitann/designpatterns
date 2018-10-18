@@ -1,3 +1,5 @@
+package lab08_duck;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 

@@ -1,3 +1,5 @@
+package lab08_duck;
+
 public class QuackEcho implements Quackable {
     Quackable duck;
 

@@ -1,3 +1,5 @@
+package lab08_duck;
+
 public class CountingDuckFactory extends AbstractDuckFactory {
 
 

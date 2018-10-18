@@ -1,3 +1,5 @@
+package lab08_duck;
+
 public class QuackCounter implements Quackable {
     Quackable duck;
     static int numberOfQuack;

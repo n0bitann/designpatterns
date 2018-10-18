@@ -1,3 +1,5 @@
+package lab08_duck;
+
 public class DuckSimulator {
     public static void main(String[] args) {
         DuckSimulator simulator = new DuckSimulator();
@@ -11,15 +13,16 @@ public class DuckSimulator {
         Quackable rubberDuck = duckFactory.createRubberDuck();
         Quackable duckCall = duckFactory.createDuckCall();
 
-//        Quackable mallardDuck = new MallardDuck();
-//        Quackable redheadDuck = new RedHeadDuck();
-//        Quackable duckCall = new DuckCall();
-//        Quackable rubberDuck = new RubberDuck();
 
-//        Quackable mallardDuck = new QuackCounter(new MallardDuck());
-//        Quackable redheadDuck = new QuackCounter(new RedHeadDuck());
-//        Quackable duckCall = new QuackCounter(new DuckCall());
-//        Quackable rubberDuck = new QuackCounter(new RubberDuck());
+//        lab08_duck.Quackable mallardDuck = new lab08_duck.MallardDuck();
+//        lab08_duck.Quackable redheadDuck = new lab08_duck.RedHeadDuck();
+//        lab08_duck.Quackable duckCall = new lab08_duck.DuckCall();
+//        lab08_duck.Quackable rubberDuck = new lab08_duck.RubberDuck();
+
+//        lab08_duck.Quackable mallardDuck = new lab08_duck.QuackCounter(new lab08_duck.MallardDuck());
+//        lab08_duck.Quackable redheadDuck = new lab08_duck.QuackCounter(new lab08_duck.RedHeadDuck());
+//        lab08_duck.Quackable duckCall = new lab08_duck.QuackCounter(new lab08_duck.DuckCall());
+//        lab08_duck.Quackable rubberDuck = new lab08_duck.QuackCounter(new lab08_duck.RubberDuck());
         Quackable gooseDuck = new GooseAdapter(new Goose());
 
 
@@ -33,7 +36,7 @@ public class DuckSimulator {
         flockOfDucks.add(mallardDuck);
 
 
-        System.out.println("\nDuck Simulator: Whole Flock Simulation");
+        System.out.println("\nDuck Simulator: Whole lab08_duck.Flock Simulation");
         simulate(flockOfDucks);
 
 
@@ -44,7 +47,7 @@ public class DuckSimulator {
 //        simulate(duckCall);
 //        simulate(rubberDuck);
 //        simulate(gooseDuck);
-//        System.out.println("The Duck quacked "+QuackCounter.getQuacks()+" Times");
+//        System.out.println("The Duck quacked "+lab08_duck.QuackCounter.getQuacks()+" Times");
     }
     void simulate(Quackable duck){
         duck.quack();
